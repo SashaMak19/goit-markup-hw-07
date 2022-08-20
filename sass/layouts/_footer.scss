@@ -1,0 +1,126 @@
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__box {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__wrap {
+  min-width: 231px;
+  margin-right: 70px;
+}
+
+.footer__address {
+  margin-top: 20px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+
+.contacts__list {
+  margin-top: 10px;
+}
+
+.contacts__item {
+  margin-top: 10px;
+}
+
+.join {
+  margin-right: 93px;
+}
+
+.join__title {
+  margin-bottom: 20px;
+
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.14;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.join-soc__list {
+  display: flex;
+  gap: 10px;
+}
+
+.join-soc__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    outline: none;
+  }
+}
+
+.join-soc__icon {
+  fill: var(--main-bg-color);
+  .footer-soc-link:hover &,
+  .footer-soc-link:focus & {
+    fill: var(--main-bg-color);
+  }
+}
+
+.sign__label {
+  display: block;
+  margin-bottom: 20px;
+
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.14;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.sign__wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+.sign__input {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  margin-right: 12px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  outline: none;
+}
+
+.sign__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+
+  border-radius: 4px;
+  box-shadow: 4px 0 4px rgba(0, 0, 0, 0.15);
+}
+
+.sign__icon {
+  margin-left: 10px;
+}
